@@ -1,0 +1,66 @@
+body{
+    background-color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#todo{
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color:wheat;
+    border-radius: 4px;
+    box-shadow:0 0 10px black;
+}
+#taskinput{
+    
+    border: 1px solid white ;
+    padding: 10px;
+    border-radius: 4px;
+}
+#btndiv{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#addtask{
+    width:30%;
+    padding: 10px;
+    margin-left: 0px ;
+    margin: 10px auto;
+    background-color:greenyellow;
+    cursor: pointer;
+    border-radius: 4px;
+    color:black;
+}
+#addtask:hover{
+    background-color: aqua;
+}
+#tasklist li {
+    list-style-type: none;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: gold;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#tasklist li input[type="checkbox"]{
+    margin-right:10px;
+}
+
+#tasklist li button{
+    padding: 5px 10px;
+    background-color: lightseagreen;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#tasklist li button:hover{
+    background-color: lightsalmon;
+}
+#tasklist li.completed{
+    background-color: lightcoral;
+    text-decoration: line-through;
+}
